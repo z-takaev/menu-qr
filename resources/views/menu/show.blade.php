@@ -16,6 +16,8 @@
                 </div>
                 <div class="col-6">
                     <h1 class="h2">{{ $menu->name }}</h1>
+
+                    {!! $menu->qrCode() !!}
                 </div>
             </div>
         </div>
